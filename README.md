@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/ch-rit/post_at_lib/main/assets/logo.png" alt="post-at-lib logo" width="360">
+  <img src="https://github.com/ch-rit/post_at_lib/blob/main/assets/logo.png?raw=true" alt="post-at-lib logo" width="360">
 </p>
 
 # post-at-lib
