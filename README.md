@@ -1,11 +1,11 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/ch-rit/post_at_lib/main/assets/logo.png" alt="post-at logo" width="360">
+  <img src="https://raw.githubusercontent.com/ch-rit/post_at_lib/main/assets/logo.png" alt="post-at-lib logo" width="360">
 </p>
 
-# post-at
+# post-at-lib
 
-[![PyPI](https://img.shields.io/pypi/v/post-at)](https://pypi.org/project/post-at/)
-[![Python versions](https://img.shields.io/pypi/pyversions/post-at)](https://pypi.org/project/post-at/)
+[![PyPI](https://img.shields.io/pypi/v/post-at-lib)](https://pypi.org/project/post-at-lib/)
+[![Python versions](https://img.shields.io/pypi/pyversions/post-at-lib)](https://pypi.org/project/post-at-lib/)
 [![License: MIT](https://img.shields.io/github/license/ch-rit/post_at_lib)](https://github.com/ch-rit/post_at_lib/blob/main/LICENSE)
 [![Tests](https://github.com/ch-rit/post_at_lib/actions/workflows/tests.yaml/badge.svg)](https://github.com/ch-rit/post_at_lib/actions/workflows/tests.yaml)
 
@@ -48,7 +48,13 @@ Looking for Home Assistant? The companion integration
 Requires Python 3.11+.
 
 ```sh
-pip install post-at
+pip install post-at-lib
+```
+
+The distribution is called `post-at-lib`; the import name is `post_at`.
+
+```python
+import post_at
 ```
 
 ## Usage
@@ -173,7 +179,7 @@ The tests replay the fixtures in `tests/fixtures/` and make no network requests.
 One-time setup:
 
 - On [pypi.org](https://pypi.org/manage/account/publishing/) add a *pending
-  trusted publisher* for project `post-at`: owner `ch-rit`, repository
+  trusted publisher* for project `post-at-lib`: owner `ch-rit`, repository
   `post_at_lib`, workflow `release.yaml`, environment `pypi`.
 - In the GitHub repository settings, create an environment named `pypi`
   (optionally with required reviewers or a `v*` tag rule).
