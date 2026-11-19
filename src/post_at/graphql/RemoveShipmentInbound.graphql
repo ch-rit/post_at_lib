@@ -1,0 +1,1 @@
+mutation RemoveShipmentInbound($trackingNumber: String!) { removeSendungEmpfang(sendung: $trackingNumber) }

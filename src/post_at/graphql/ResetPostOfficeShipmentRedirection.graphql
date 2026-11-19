@@ -1,0 +1,1 @@
+mutation ResetPostOfficeShipmentRedirection($trackingNumber: String!) { resetPostOfficeRedirection(sendungsnummer: $trackingNumber) }

@@ -1,0 +1,43 @@
+{
+ "crmId": "00000000-0000-0000-0000-000000000000",
+ "ssoId": 0,
+ "customerSsoId": 0,
+ "contactSsoId": 0,
+ "personSsoId": 0,
+ "username": "max.mustermann@example.com",
+ "registrationDate": "2021-01-01T10:00:00",
+ "registrationOrigin": "post.at",
+ "loginDate": "2026-01-01T12:00:00.1234567",
+ "customerNumber": 0,
+ "level": 90,
+ "firstname": "Max",
+ "lastname": "Mustermann",
+ "titleAfterName": null,
+ "titleBeforeName": null,
+ "birthdate": "1990-01-01T00:00:00",
+ "phone": null,
+ "mobile": {
+  "areaCode": "660",
+  "countryCode": "+43",
+  "number": "1234567"
+ },
+ "addresses": [
+  {
+   "id": "00000000-0000-0000-0000-000000000001",
+   "addressSsoId": 0,
+   "addressType": 1,
+   "countryIsoAlpha2Code": "AT",
+   "postalCode": "1030",
+   "city": "Wien",
+   "street": "Rochusplatz",
+   "street2": null,
+   "doorNumber": "1",
+   "houseNumber": "1",
+   "postAddressCode": "101269641",
+   "isConfirmed": true
+  }
+ ],
+ "companyData": null,
+ "roommates": [],
+ "locked": false
+}

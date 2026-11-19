@@ -1,0 +1,1 @@
+mutation RenameShipment($trackingNumber: String!, $title: String!) { renameSendung(sendung: { sendungsnummer: $trackingNumber bezeichnung: $title } ) }

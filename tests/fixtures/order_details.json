@@ -1,0 +1,87 @@
+{
+ "orderDate": "2026-08-15T14:19:10+02:00",
+ "orderId": "AP-26-0000001",
+ "parcelStampContractIds": [
+  "PMC-TEST1"
+ ],
+ "invoice": {
+  "url": "/attachments/AP-26-0000001/7000000000?tokenid=7000000000",
+  "id": "7000000000",
+  "date": "2026-08-15T14:21:06.637+02:00",
+  "address": {
+   "companyName": "",
+   "person": "Max Mustermann",
+   "countryIsoAlpha2Code": "AT",
+   "postalCode": "1030",
+   "city": "Wien",
+   "street": "Rochusplatz",
+   "houseNumber": "1",
+   "doorNumber": "1"
+  }
+ },
+ "shippingAddress": {
+  "companyName": "",
+  "person": "Max Mustermann",
+  "countryIsoAlpha2Code": "AT",
+  "postalCode": "1030",
+  "city": "Wien",
+  "street": "Rochusplatz",
+  "houseNumber": "1",
+  "doorNumber": "1"
+ },
+ "paymentType": "payment_type_mastercard",
+ "totalPrice": {
+  "netPrice": 16.54,
+  "totalPrice": 16.54
+ },
+ "coupons": [],
+ "orderItems": [
+  {
+   "quantity": 1,
+   "productName": "Paketmarke 45 EU",
+   "productStringKey": "parcelstamp_title",
+   "state": "order_state_active_no_cancellation",
+   "identityCodes": [
+    "xxxxxxxxxxxxx"
+   ],
+   "sender": {
+    "companyName": null,
+    "person": "Max Mustermann",
+    "countryIsoAlpha2Code": "AT",
+    "postalCode": "1030",
+    "city": "Wien",
+    "street": "Rochusplatz",
+    "houseNumber": "1",
+    "doorNumber": "1",
+    "postAddressCode": 101269641
+   },
+   "receiver": {
+    "companyName": null,
+    "person": "Max Mustermann",
+    "countryIsoAlpha2Code": "IT",
+    "postalCode": "1030",
+    "city": "Wien",
+    "street": "Rochusplatz",
+    "houseNumber": null,
+    "doorNumber": null,
+    "postAddressCode": 0
+   },
+   "apdReceiver": null,
+   "data": {
+    "apdData": null,
+    "personal": false,
+    "receiverInfo": false,
+    "collectionTime": null,
+    "collectionLocation": null
+   },
+   "info": null,
+   "price": {
+    "netPrice": 16.54,
+    "totalPrice": 16.54,
+    "tax": 0,
+    "taxRate": 0
+   },
+   "expiryDate": "2026-08-15T12:33:09.6174517+00:00"
+  }
+ ]
+}

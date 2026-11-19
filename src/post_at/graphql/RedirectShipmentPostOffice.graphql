@@ -1,0 +1,1 @@
+mutation RedirectShipmentPostOffice($redirection: PostOfficeRedirectionType!) { setPostOfficeRedirection(redirection: $redirection) }

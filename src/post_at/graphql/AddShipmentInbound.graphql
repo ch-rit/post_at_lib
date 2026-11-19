@@ -1,0 +1,1 @@
+mutation AddShipmentInbound($trackingNumber: String!) { addSendungEmpfang(sendung: { sendungsnummer: $trackingNumber } ) }

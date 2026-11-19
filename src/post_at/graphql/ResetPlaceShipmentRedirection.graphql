@@ -1,0 +1,1 @@
+mutation ResetPlaceShipmentRedirection($trackingNumber: String!) { resetPlaceRedirection(sendungsnummer: $trackingNumber) }

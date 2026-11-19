@@ -1,0 +1,1 @@
+mutation RedirectShipmentParcelLocker($redirection: ParcelLockerRedirectionType!) { setParcelLockerRedirection(redirection: $redirection) }

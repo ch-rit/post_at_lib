@@ -1,0 +1,21 @@
+{
+ "addresses": [
+  {
+   "address": {
+    "id": "00000000-0000-0000-0000-000000000001",
+    "addressSsoId": 0,
+    "addressType": 1,
+    "countryIsoAlpha2Code": "AT",
+    "postalCode": "1030",
+    "city": "Wien",
+    "street": "Rochusplatz",
+    "street2": null,
+    "doorNumber": "1",
+    "houseNumber": "1",
+    "postAddressCode": "101269641",
+    "isConfirmed": true
+   },
+   "receivingOptions": []
+  }
+ ]
+}

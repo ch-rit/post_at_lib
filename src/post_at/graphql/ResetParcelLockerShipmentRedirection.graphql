@@ -1,0 +1,1 @@
+mutation ResetParcelLockerShipmentRedirection($trackingNumber: String!) { resetParcelLockerRedirection(sendungsnummer: $trackingNumber) }

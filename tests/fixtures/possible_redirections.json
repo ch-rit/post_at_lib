@@ -1,0 +1,114 @@
+{
+ "activeIdentityCode": "1000000000000000000001",
+ "possibleRedirections": {
+  "branchesParcelLocker": null,
+  "branchesPostOffice": null,
+  "redirectionAreaCode": null
+ },
+ "redirectionInformation": {
+  "infoBoxes": [
+   {
+    "__typename": "ShipmentUserInfoType",
+    "shipmentUserInfoType": "INFO",
+    "shipmentUserInfoTitle": "",
+    "shipmentUserInfoDesc": "Diese Sendung wird im Auftrag des∗der Versender∗in vor Ihrer Wohnungstüre **abgestellt** oder in Ihren **Briefkasten** eingelegt. Daher können Sie die Empfangsoption nicht ändern.",
+    "pillText": null,
+    "link": null
+   }
+  ],
+  "redirectionOptions": [
+   {
+    "type": "NEIGHBOR",
+    "state": "DISABLED",
+    "current": false,
+    "callToAction": {
+     "type": "NONE"
+    },
+    "unavailabilityReasons": [
+     "DROP_OFF"
+    ],
+    "redirectionInfo": [
+     {
+      "__typename": "ShipmentUserInfoType",
+      "shipmentUserInfoType": "INFO",
+      "shipmentUserInfoTitle": "",
+      "shipmentUserInfoDesc": "Diese Sendung wird im Auftrag des∗der Versender∗in vor Ihrer Wohnungstüre **abgestellt** oder in Ihren **Briefkasten** eingelegt. Daher können Sie die Empfangsoption nicht ändern.",
+      "pillText": null,
+      "link": null
+     }
+    ]
+   },
+   {
+    "type": "PLACE",
+    "state": "DISABLED",
+    "current": true,
+    "callToAction": {
+     "type": "NONE"
+    },
+    "unavailabilityReasons": [
+     "DROP_OFF"
+    ],
+    "redirectionInfo": [
+     {
+      "__typename": "ShipmentUserInfoType",
+      "shipmentUserInfoType": "INFO",
+      "shipmentUserInfoTitle": "",
+      "shipmentUserInfoDesc": "Diese Sendung wird im Auftrag des∗der Versender∗in vor Ihrer Wohnungstüre **abgestellt** oder in Ihren **Briefkasten** eingelegt. Daher können Sie die Empfangsoption nicht ändern.",
+      "pillText": null,
+      "link": null
+     }
+    ]
+   },
+   {
+    "type": "POST_OFFICE",
+    "state": "DISABLED",
+    "current": false,
+    "callToAction": {
+     "type": "NONE"
+    },
+    "unavailabilityReasons": [
+     "DROP_OFF"
+    ],
+    "redirectionInfo": [
+     {
+      "__typename": "ShipmentUserInfoType",
+      "shipmentUserInfoType": "INFO",
+      "shipmentUserInfoTitle": "",
+      "shipmentUserInfoDesc": "Diese Sendung wird im Auftrag des∗der Versender∗in vor Ihrer Wohnungstüre **abgestellt** oder in Ihren **Briefkasten** eingelegt. Daher können Sie die Empfangsoption nicht ändern.",
+      "pillText": null,
+      "link": null
+     }
+    ]
+   },
+   {
+    "type": "PARCEL_LOCKER",
+    "state": "DISABLED",
+    "current": false,
+    "callToAction": {
+     "type": "NONE"
+    },
+    "unavailabilityReasons": [
+     "DROP_OFF"
+    ],
+    "redirectionInfo": [
+     {
+      "__typename": "ShipmentUserInfoType",
+      "shipmentUserInfoType": "INFO",
+      "shipmentUserInfoTitle": "",
+      "shipmentUserInfoDesc": "Diese Sendung wird im Auftrag des∗der Versender∗in vor Ihrer Wohnungstüre **abgestellt** oder in Ihren **Briefkasten** eingelegt. Daher können Sie die Empfangsoption nicht ändern.",
+      "pillText": null,
+      "link": null
+     }
+    ]
+   },
+   {
+    "type": "DEFAULT",
+    "state": "ENABLED",
+    "current": false,
+    "callToAction": null,
+    "unavailabilityReasons": [],
+    "redirectionInfo": []
+   }
+  ]
+ }
+}

@@ -1,0 +1,26 @@
+{
+ "orders": [
+  {
+   "orderDate": "2026-08-15T14:19:10+02:00",
+   "orderId": "AP-26-0000001",
+   "totalPrice": {
+    "netPrice": 16.54,
+    "totalPrice": 16.54
+   },
+   "orderItems": [
+    {
+     "quantity": 1,
+     "productName": "Paketmarke 45 EU",
+     "productStringKey": "parcelstamp_title",
+     "price": {
+      "taxRate": 0.0,
+      "tax": 0.0,
+      "netPrice": 16.54,
+      "totalPrice": 16.54
+     }
+    }
+   ]
+  }
+ ],
+ "totalOrderCount": 1
+}

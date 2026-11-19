@@ -1,0 +1,111 @@
+{
+ "marketingPreferences": [
+  {
+   "sections": [
+    {
+     "id": "76527b96-5ce3-4942-a424-4e5a5ed9d61d",
+     "title": "Marketingzustimmungen",
+     "description": "Erhalten Sie Neuigkeiten und Angebote der &Ouml;sterreichischen Post AG &uuml;ber die Kan&auml;le E-Mail, Brief, Telefon, SMS und Messenger-Dienste. Mit der Zustimmung akzeptieren Sie die folgenden <a href=\"https://www.post.at/p/c/einwilligungstext-marketingzustimmung?_id=0877F21255E343FC8A0BFE814B215BB2&_z=z\" target=\"_blank\" rel=\"noopener noreferrer\">rechtlichen Bedingungen</a>.",
+     "order": 0,
+     "globalPurpose": {
+      "enabled": false,
+      "id": "f4724fb5-5b2c-4e9e-8225-e4cce3f5a399",
+      "title": "Marketingzustimmung",
+      "description": "Marketingzustimmung f&uuml;r die &Ouml;sterreichische Post AG.",
+      "order": 1
+     },
+     "purposes": [
+      {
+       "enabled": false,
+       "id": "986a802a-4830-4372-a885-ac1216123603",
+       "title": "Post Produkte & Services",
+       "description": "",
+       "order": 2
+      },
+      {
+       "enabled": false,
+       "id": "2fcb3c8d-578b-4f08-bbf2-99e983b92858",
+       "title": "Telekommunikation",
+       "description": "",
+       "order": 3
+      },
+      {
+       "enabled": false,
+       "id": "feceb385-a068-49a2-80b9-0ffd71e4abf8",
+       "title": "Finanzdienstleistungen",
+       "description": "",
+       "order": 4
+      },
+      {
+       "enabled": false,
+       "id": "952862c4-4e8b-45f3-a6a0-ad9e8aebdedd",
+       "title": "Philatelie & Crypto stamps",
+       "description": "",
+       "order": 5
+      }
+     ]
+    },
+    {
+     "id": "99ea8ff6-b306-48b0-b0d7-9bcf7b1d9c0e",
+     "title": "Online Werbung",
+     "description": "Mit einem Klick relevante Werbeanzeigen der &Ouml;sterreichischen Post ein-oder ausschalten.",
+     "order": 1,
+     "globalPurpose": null,
+     "purposes": [
+      {
+       "enabled": false,
+       "id": "e289df86-b3d7-4ef8-a281-e79c3950bd9f",
+       "title": "Marketingzustimmung Online Werbung",
+       "description": "Personalisierte Online Werbung auf Google, Meta und Snapchat.",
+       "order": 1
+      }
+     ]
+    },
+    {
+     "id": "b2658db3-f80c-42e5-b29a-55da148f6f7f",
+     "title": "Newsletter",
+     "description": "W&auml;hlen Sie Ihre bevorzugten Themenbereiche, zu welchen Sie regelm&auml;&szlig;ige Newsletter per E-Mail erhalten m&ouml;chten. Mit der Zustimmung akzeptieren Sie die folgenden <a href=\"https://www.post.at/p/c/einwilligungstext-newsletter?_id=5901AD8B4EBA4A508D4F1BD25465A54A&_z=z\" target=\"_blank\" rel=\"noopener noreferrer\">rechtlichen Bedingungen</a>.",
+     "order": 2,
+     "globalPurpose": null,
+     "purposes": [
+      {
+       "enabled": false,
+       "id": "6666b21d-c0ba-4bc8-9076-ccd0503ccc12",
+       "title": "Post Account",
+       "description": "Tipps und Neuigkeiten rund um den Post Account.&nbsp;4x pro Jahr.",
+       "order": 1
+      },
+      {
+       "enabled": false,
+       "id": "db217533-5b6e-4073-b232-f0869d6b3e40",
+       "title": "Produkte & Services",
+       "description": "Aktionen und Empfehlungen zu Produkten und Services der &Ouml;sterreichischen Post. 4x pro Jahr.",
+       "order": 2
+      },
+      {
+       "enabled": false,
+       "id": "f5d237b9-8183-4d9d-95d7-b72bbf3fb085",
+       "title": "Telekommunikation",
+       "description": "Angebote f&uuml;r Telefonie, Internet und aktuelle Smartphones. 4x pro Jahr.",
+       "order": 3
+      },
+      {
+       "enabled": false,
+       "id": "b1c7d029-042c-45f2-9a64-f5527a36e764",
+       "title": "Briefmarken & Philatelie",
+       "description": "Sammler-News, Ausgabeprogramme, Events und Editionen. 1x pro Monat.",
+       "order": 4
+      },
+      {
+       "enabled": false,
+       "id": "f30cba16-79c0-4a8c-9655-7c211fe2e81a",
+       "title": "Crypto stamps",
+       "description": "News, Updates und spannende Aktionen zu Crypto stamps. 1x pro Monat.",
+       "order": 5
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

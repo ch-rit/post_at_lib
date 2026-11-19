@@ -1,0 +1,89 @@
+{
+ "pushSettings": [
+  {
+   "notificationKeys": [
+    "ParcelDelivery.Event.AVI.*"
+   ],
+   "pushSetting": "Neue Sendung",
+   "sortOrder": 1,
+   "category": "Updates zu Sendungen",
+   "enabled": true
+  },
+  {
+   "notificationKeys": [
+    "ParcelDelivery.Event.VER.*"
+   ],
+   "pushSetting": "In Verteilung",
+   "sortOrder": 2,
+   "category": "Updates zu Sendungen",
+   "enabled": true
+  },
+  {
+   "notificationKeys": [
+    "ParcelDelivery.Event.LAG.ELE"
+   ],
+   "pushSetting": "Zollhindernis",
+   "sortOrder": 3,
+   "category": "Updates zu Sendungen",
+   "enabled": true
+  },
+  {
+   "notificationKeys": [
+    "ParcelDelivery.Event.AZT.*"
+   ],
+   "pushSetting": "In Zustellung",
+   "sortOrder": 4,
+   "category": "Updates zu Sendungen",
+   "enabled": true
+  },
+  {
+   "notificationKeys": [
+    "ParcelDelivery.Event.HIA.HO",
+    "ParcelDelivery.Event.BEI.EAW",
+    "ParcelDelivery.Event.PUG.UPB"
+   ],
+   "pushSetting": "Abholbereit",
+   "sortOrder": 5,
+   "category": "Updates zu Sendungen",
+   "enabled": true
+  },
+  {
+   "notificationKeys": [
+    "ParcelDelivery.Event.ZUS.*"
+   ],
+   "pushSetting": "Zugestellt",
+   "sortOrder": 7,
+   "category": "Updates zu Sendungen",
+   "enabled": true
+  },
+  {
+   "notificationKeys": [
+    "PickupReminder.Poststation1",
+    "PickupReminder.Poststation2"
+   ],
+   "pushSetting": "Abhol-Erinnerung",
+   "sortOrder": 7,
+   "category": "Reminder",
+   "enabled": false
+  },
+  {
+   "notificationKeys": [
+    "ELetter.NEW"
+   ],
+   "pushSetting": "E-Brief",
+   "sortOrder": 8,
+   "category": "E-Brief",
+   "enabled": true
+  },
+  {
+   "notificationKeys": [
+    "postat-vde-collection-error",
+    "postat-vde-collection-success"
+   ],
+   "pushSetting": "Abholservice",
+   "sortOrder": 9,
+   "category": "Services",
+   "enabled": false
+  }
+ ]
+}
