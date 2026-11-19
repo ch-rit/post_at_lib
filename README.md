@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://raw.githubusercontent.com/ch-rit/post_at_lib/main/assets/logo.png" alt="post-at logo" width="360">
+</p>
+
 # post-at
 
 [![PyPI](https://img.shields.io/pypi/v/post-at)](https://pypi.org/project/post-at/)
@@ -14,7 +18,9 @@ request signing, app attestation or certificate pinning is involved.
 > **Unofficial project, use at your own risk.**
 >
 > - This library is **not affiliated with, endorsed by or supported by
->   Österreichische Post AG**. "Post" and "post.at" are their trademarks.
+>   Österreichische Post AG**. "Post", "post.at" and the post horn logo are
+>   their trademarks; the logo above is a modified version used only to
+>   identify the service this library talks to.
 > - It uses an undocumented, private API that can change or break at any time.
 > - The code is **fully vibecoded**: it was written by an AI and only lightly
 >   reviewed by a human.

@@ -10,3 +10,5 @@ captures/
 # decompiled app and APKs
 research/
 *.apkm
+# source artwork; derived logo lives in assets/
+Post-Logo-RGB-Farbe.png
