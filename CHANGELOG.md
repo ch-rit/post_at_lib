@@ -7,6 +7,17 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.2.0] - 2026-11-21
+
+### Added
+
+- `Shipment.image_url`: the photo of the parcel from the sorting conveyor, with the
+  `|` in the raw `image` link percent-encoded so the storage server accepts it.
+
+### Removed
+
+- The author e-mail address from the package metadata.
+
 ## [0.1.0] - 2026-11-19
 
 Initial release.
@@ -40,5 +51,6 @@ Initial release.
   default) after app or API changes.
 - PEP 561 `py.typed` marker.
 
-[Unreleased]: https://github.com/ch-rit/post_at_lib/compare/v0.1.0...HEAD
+[Unreleased]: https://github.com/ch-rit/post_at_lib/compare/v0.2.0...HEAD
+[0.2.0]: https://github.com/ch-rit/post_at_lib/releases/tag/v0.2.0
 [0.1.0]: https://github.com/ch-rit/post_at_lib/releases/tag/v0.1.0

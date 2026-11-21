@@ -15,7 +15,7 @@ import pytest
 
 from post_at import PostAtClient, Session
 from post_at.auth import SCOPE_APP, SCOPE_USER_CONTEXT, AccessToken
-from post_at.models import DeliveryType, PushSetting, RedirectionState, RedirectionType
+from post_at.models import DeliveryType, PushSetting, RedirectionState, RedirectionType, Shipment
 
 FIXTURES = Path(__file__).parent / "fixtures"
 
@@ -60,6 +60,14 @@ def test_shipment_details() -> None:
     assert shipment.customs.user_document_needed is False
     assert shipment.redirections[0].parcel_locker is None
     assert shipment.latest_event.timestamp.tzinfo is not None
+
+
+def test_shipment_image_url() -> None:
+    shipment = Shipment.model_validate(
+        {"activeIdentityCode": "1", "bild": "https://secure.post.at/storage/FMS|0001|aaaa-bbbb|PLC"}
+    )
+    assert shipment.image_url == "https://secure.post.at/storage/FMS%7C0001%7Caaaa-bbbb%7CPLC"
+    assert Shipment.model_validate({"activeIdentityCode": "1", "bild": ""}).image_url is None
 
 
 def test_public_tracking_and_unknown_number() -> None:

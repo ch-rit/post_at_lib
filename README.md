@@ -36,7 +36,8 @@ Looking for Home Assistant? The companion integration
 - Track any parcel by tracking number, no login needed.
 - Log in with e-mail and password (no browser), or through a browser when the
   account needs MFA; the rotating refresh token is persisted in a session file.
-- List all sent and received parcels of your account, add, remove and rename them.
+- List all sent and received parcels of your account, add, remove and rename them,
+  and get the photo the Post takes of a parcel on the sorting conveyor (`Shipment.image_url`).
 - Query and set delivery redirections (neighbour, parcel locker, post office, place).
 - Search branches and parcel lockers in a map area.
 - Read and update the user profile, addresses, receiving options, push and

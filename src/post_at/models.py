@@ -13,6 +13,7 @@ from datetime import datetime, time
 from decimal import Decimal
 from enum import StrEnum
 from typing import Annotated, TypeVar
+from urllib.parse import quote
 
 from pydantic import BaseModel, ConfigDict, Field
 from pydantic.alias_generators import to_camel
@@ -258,6 +259,7 @@ class Shipment(Model):
     title: str | None = Field(None, alias="bezeichnung")
     """Name the user gave the shipment."""
     image: str | None = Field(None, alias="bild")
+    """Raw link to the photo of the parcel from the sorting conveyor; use :attr:`image_url` to fetch it."""
     branch_key: str | None = Field(None, alias="branchkey")
     tags: list[Tag] = Field(default_factory=list)
     is_my_shipment: bool | None = Field(None, alias="isMeineSendung")
@@ -302,6 +304,20 @@ class Shipment(Model):
         if not self.parcel_visualization:
             return None
         return base64.b64decode(self.parcel_visualization).decode()
+
+    @property
+    def image_url(self) -> str | None:
+        """URL of the photo taken of the parcel on the sorting conveyor, if there is one.
+
+        The photo shows the address label. The URL needs no login, so treat it as
+        personal data. :attr:`image` contains ``|``, which the storage server only
+        accepts percent-encoded (it resets the connection otherwise); this URL is
+        encoded and can be fetched as is.
+        """
+        if not self.image:
+            return None
+        # Everything RFC 3986 allows unescaped in a URL, plus existing escapes.
+        return quote(self.image, safe="%:/?#[]@!$&'()*+,;=")
 
 
 class ShipmentList(Model):
