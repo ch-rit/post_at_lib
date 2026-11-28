@@ -70,6 +70,16 @@ def test_shipment_image_url() -> None:
     assert Shipment.model_validate({"activeIdentityCode": "1", "bild": ""}).image_url is None
 
 
+def test_null_falls_back_to_default() -> None:
+    # Shipments added manually by tracking number come back with these as null.
+    shipment = Shipment.model_validate(
+        {"activeIdentityCode": "1", "paymentInformations": None, "shipmentUserInfo": None}
+    )
+    assert shipment.payments == []
+    assert shipment.user_info == []
+    assert shipment.title is None
+
+
 def test_public_tracking_and_unknown_number() -> None:
     post = PostAtClient(http=httpx.Client(transport=httpx.MockTransport(graphql("einzelsendung", fixture("track")))))
     assert post.track("1000000000000000000001").latest_event.state_key == "delivered"

@@ -12,10 +12,10 @@ import base64
 from datetime import datetime, time
 from decimal import Decimal
 from enum import StrEnum
-from typing import Annotated, TypeVar
+from typing import Annotated, Any, TypeVar
 from urllib.parse import quote
 
-from pydantic import BaseModel, ConfigDict, Field
+from pydantic import BaseModel, ConfigDict, Field, ValidationInfo, field_validator
 from pydantic.alias_generators import to_camel
 
 _E = TypeVar("_E", bound=StrEnum)
@@ -32,6 +32,17 @@ class Model(BaseModel):
         extra="allow",
         coerce_numbers_to_str=True,
     )
+
+    @field_validator("*", mode="before")
+    @classmethod
+    def _null_to_default(cls, value: Any, info: ValidationInfo) -> Any:
+        # The API sends ``null`` instead of omitting a field (e.g. ``shipmentUserInfo``
+        # of a shipment added by tracking number); pydantic only defaults missing keys.
+        if value is None and info.field_name is not None:
+            field = cls.model_fields[info.field_name]
+            if not field.is_required():
+                return field.get_default(call_default_factory=True)
+        return value
 
 
 # -- enums (values from the app's GraphQL schema) -----------------------------

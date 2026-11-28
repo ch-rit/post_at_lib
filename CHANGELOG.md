@@ -7,6 +7,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.2.1] - 2026-11-28
+
+### Fixed
+
+- A `null` from the API for a field with a default (e.g. `paymentInformations` and
+  `shipmentUserInfo` of a shipment added manually by tracking number) now falls back
+  to that default instead of failing validation.
+
 ## [0.2.0] - 2026-11-21
 
 ### Added
@@ -51,6 +59,7 @@ Initial release.
   default) after app or API changes.
 - PEP 561 `py.typed` marker.
 
-[Unreleased]: https://github.com/ch-rit/post_at_lib/compare/v0.2.0...HEAD
+[Unreleased]: https://github.com/ch-rit/post_at_lib/compare/v0.2.1...HEAD
+[0.2.1]: https://github.com/ch-rit/post_at_lib/releases/tag/v0.2.1
 [0.2.0]: https://github.com/ch-rit/post_at_lib/releases/tag/v0.2.0
 [0.1.0]: https://github.com/ch-rit/post_at_lib/releases/tag/v0.1.0
